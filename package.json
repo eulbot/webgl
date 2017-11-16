@@ -1,0 +1,17 @@
+{
+  "name": "webgl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-01": "webpack --config ./01-triangel/config/webpack.config.js",
+    "watch-01": "webpack --config ./01-triangel/config/webpack.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^2.3.2",
+    "webpack": "^3.4.1"
+  }
+}
