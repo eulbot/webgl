@@ -12,9 +12,9 @@ var splitSourceMaps = (info) => {
 }
 
 module.exports = {
-  entry: './01-triangel/main.ts',
+  entry: './02-cube/main.ts',
   output: {
-    filename: '01-triangel/dist/main.js'
+    filename: '02-cube/dist/main.js'
   },
   devtool: "source-map",
   resolve: {
