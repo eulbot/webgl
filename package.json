@@ -7,17 +7,22 @@
     "build-01": "webpack --config ./01-triangel/config/webpack.config.js",
     "watch-01": "webpack --config ./01-triangel/config/webpack.config.js --watch",
     "build-02": "webpack --config ./02-cube/config/webpack.config.js",
-    "watch-02": "webpack --config ./02-cube/config/webpack.config.js --watch"
+    "watch-02": "webpack --config ./02-cube/config/webpack.config.js --watch",
+    "build-03": "webpack --config ./03-mesh/config/webpack.config.js",
+    "watch-03": "webpack --config ./03-mesh/config/webpack.config.js --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/three": "^0.84.30",
     "ts-loader": "^2.3.2",
     "webpack": "^3.4.1"
   },
   "dependencies": {
     "gl-matrix": "^2.4.0",
+    "three": "^0.88.0",
+    "three-orbit-controls": "^82.1.0",
     "webgl-debug": "^1.0.2"
   }
 }

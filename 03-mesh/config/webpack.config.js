@@ -11,19 +11,14 @@ var splitSourceMaps = (info) => {
     return '../'.concat(info.resourcePath);
 }
 
-var webpack = require("webpack");
-var path = require('path');
-
 module.exports = {
-  entry: './01-triangel/main.ts',
+  entry: './03-mesh/main.ts',
   output: {
-    filename: '../dist/main.js',
-    path: __dirname,
-    devtoolModuleFilenameTemplate: splitSourceMaps
+    filename: '03-mesh/dist/main.js'
   },
   devtool: "source-map",
   resolve: {
-    extensions: ['.ts']
+    extensions: ['.ts', '.js']
   },
   module: {
     loaders: [
